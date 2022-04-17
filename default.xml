@@ -12,7 +12,7 @@
            fetch="https://gitlab.com/" />
 
   <remote  name="arrow"
-           fetch="https://github.com/ArrowOS"
+           fetch="https://github.com/st-schilling"
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-11.0" />
 
@@ -31,12 +31,12 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-11.0" />
 
-  <default revision="refs/tags/android-11.0.0_r46"
+  <default revision="refs/tags/android-security-11.0.0_r53"
            remote="aosp"
            sync-j="4"
            sync-c="true"/>
 
-  <superproject name="platform/superproject" remote="aosp"/>
+  <superproject name="platform/superproject" remote="aosp" revision="android-security-11.0.0_r53" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
