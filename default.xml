@@ -41,11 +41,6 @@
            review="https://android-review.googlesource.com/"
            revision="refs/tags/android-11.0.0_r48" />
 
-  <!--  <default revision="refs/tags/android-security-11.0.0_r53"-->
-  <!--           remote="aosp"-->
-  <!--           sync-j="4"-->
-  <!--           sync-c="true"/>-->
-
   <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp"
            sync-j="4"
