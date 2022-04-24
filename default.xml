@@ -11,8 +11,13 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
-  <remote  name="arrow"
+  <remote  name="arrow-st-schilling"
            fetch="https://github.com/st-schilling"
+           review="https://review.arrowos.net/"
+           revision="feature/11.0.0_r53" />
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-11.0" />
 
@@ -31,7 +36,17 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-11.0" />
 
-  <default revision="refs/tags/android-security-11.0.0_r53"
+  <remote  name="aosp-r48"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/"
+           revision="refs/tags/android-11.0.0_r48" />
+
+  <!--  <default revision="refs/tags/android-security-11.0.0_r53"-->
+  <!--           remote="aosp"-->
+  <!--           sync-j="4"-->
+  <!--           sync-c="true"/>-->
+
+  <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp"
            sync-j="4"
            sync-c="true"/>
@@ -561,16 +576,16 @@
   <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" groups="generic_fs,qcom_sdm845" />
   <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="generic_fs,qcom_sdm845" />
   <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="generic_fs,qcom_sdm845" />
-  <project path="hardware/qcom/sm7150/gps" name="platform/hardware/qcom/sm7150/gps" groups="qcom_sm7150" >
+  <project path="hardware/qcom/sm7150/gps" name="platform/hardware/qcom/sm7150/gps" groups="qcom_sm7150"  remote="aosp-r48" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7150/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm7250/display" name="platform/hardware/qcom/sm7250/display" groups="qcom_sm7250" />
-  <project path="hardware/qcom/sm7250/gps" name="platform/hardware/qcom/sm7250/gps" groups="qcom_sm7250" >
+  <project path="hardware/qcom/sm7250/display" name="platform/hardware/qcom/sm7250/display" groups="qcom_sm7250"  remote="aosp-r48"/>
+  <project path="hardware/qcom/sm7250/gps" name="platform/hardware/qcom/sm7250/gps" groups="qcom_sm7250"  remote="aosp-r48">
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm7250/media" name="platform/hardware/qcom/sm7250/media" groups="qcom_sm7250" />
+  <project path="hardware/qcom/sm7250/media" name="platform/hardware/qcom/sm7250/media" groups="qcom_sm7250"  remote="aosp-r48"/>
   <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" groups="qcom_sm8150" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
