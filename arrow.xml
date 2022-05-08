@@ -62,7 +62,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="arrow" />
-  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow-st-schilling" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow-st-schilling" revision="feature/switch_updater_to_arrowos-download.de" />
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="arrow" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="arrow" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="arrow" />
@@ -250,7 +250,7 @@
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="arrow" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="arrow" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="arrow" />
-  <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
+  <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow-st-schilling" revision="feature/arrow-11.0-with-updater" />
   <project path="vendor/support" name="android_vendor_support" remote="arrow" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
 
