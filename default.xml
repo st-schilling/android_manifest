@@ -14,7 +14,7 @@
   <remote  name="arrow-st-schilling"
            fetch="https://github.com/st-schilling"
            review="https://review.arrowos.net/"
-           revision="refs/tags/11.0.0_r60" />
+           revision="refs/tags/11.0.0_r61" />
 
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
@@ -46,10 +46,10 @@
            review="https://android-review.googlesource.com/"
            revision="refs/tags/android-security-11.0.0_r56" />
 
-  <remote  name="aosp-security-r60"
+  <remote  name="aosp-security-r61"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-security-11.0.0_r60" />
+           revision="refs/tags/android-security-11.0.0_r61" />
 
   <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp"
@@ -206,7 +206,7 @@
   <project path="external/dokka" name="platform/external/dokka" groups="pdk" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" />
   <project path="external/drrickorang" name="platform/external/drrickorang" groups="pdk" />
-  <project path="external/dtc" name="platform/external/dtc" groups="pdk" remote="aosp-security-r60"/>
+  <project path="external/dtc" name="platform/external/dtc" groups="pdk" remote="aosp-security-r61"/>
   <project path="external/dynamic_depth" name="platform/external/dynamic_depth" groups="pdk" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" />
@@ -708,7 +708,7 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp-security-r61" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
