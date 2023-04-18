@@ -218,7 +218,7 @@
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="arrow" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="arrow" />
   <project path="system/media" name="android_system_media" remote="arrow" />
-  <project path="system/nfc" name="android_system_nfc" remote="arrow" />
+  <project path="system/nfc" name="android_system_nfc" remote="arrow-st-schilling" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" remote="arrow" />
 
   <!-- tools repos -->
