@@ -56,6 +56,11 @@
            review="https://android-review.googlesource.com/"
            revision="refs/tags/android-security-11.0.0_r62" />
 
+  <remote  name="aosp-security-r68"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/"
+           revision="refs/tags/android-security-11.0.0_r68" />
+
   <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp"
            sync-j="4"
@@ -684,7 +689,7 @@
   <project path="packages/apps/TimeZoneData" name="platform/packages/apps/TimeZoneData" groups="pdk" />
   <project path="packages/apps/TimeZoneUpdater" name="platform/packages/apps/TimeZoneUpdater" groups="pdk" />
   <project path="packages/apps/ThemePicker" name="platform/packages/apps/ThemePicker" groups="pdk-fs" />
-  <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" groups="pdk-fs" remote="aosp-r68"/>
+  <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" groups="pdk-fs" remote="aosp-security-r68"/>
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="pdk-fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" />
