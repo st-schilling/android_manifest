@@ -11,10 +11,15 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <remote  name="arrow-st-schilling-r69"
+           fetch="https://github.com/st-schilling"
+           review="https://review.arrowos.net/"
+           revision="features/11.0.0_r69" />
+
   <remote  name="arrow-st-schilling"
            fetch="https://github.com/st-schilling"
            review="https://review.arrowos.net/"
-           revision="refs/tags/11.0.0_r69" />
+           revision="refs/tags/11.0.0_r68" />
 
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
