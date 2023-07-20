@@ -31,7 +31,7 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="arrow" />
 
   <!-- framework repos -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="arrow-st-schilling" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="arrow-st-schilling-r68" />
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow-st-schilling-r69" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow-st-schilling" />
@@ -60,7 +60,7 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow-st-schilling" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow-st-schilling" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow-st-schilling-r68" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="arrow" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow-st-schilling" />
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="arrow" />
@@ -71,7 +71,7 @@
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="arrow" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="arrow-st-schilling" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="arrow" />
-  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="arrow-st-schilling" />
+  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="arrow-st-schilling-r68" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="arrow-st-schilling" />
   <project path="packages/services/Car" name="android_packages_services_Car" remote="arrow" />
 
@@ -207,7 +207,7 @@
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="system/core" name="android_system_core" remote="arrow" />
   <project path="system/libufdt" name="android_system_libufdt" remote="arrow" />
-  <project path="system/bt" name="android_system_bt" remote="arrow-st-schilling" />
+  <project path="system/bt" name="android_system_bt" remote="arrow-st-schilling-r68" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="arrow" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" />
