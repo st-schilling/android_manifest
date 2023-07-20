@@ -71,7 +71,7 @@
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="arrow" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="arrow-st-schilling" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="arrow" />
-  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="arrow" />
+  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="arrow-st-schilling" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="arrow-st-schilling" />
   <project path="packages/services/Car" name="android_packages_services_Car" remote="arrow" />
 
@@ -207,7 +207,7 @@
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="system/core" name="android_system_core" remote="arrow" />
   <project path="system/libufdt" name="android_system_libufdt" remote="arrow" />
-  <project path="system/bt" name="android_system_bt" remote="arrow" />
+  <project path="system/bt" name="android_system_bt" remote="arrow-st-schilling" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="arrow" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" />
