@@ -49,7 +49,7 @@
   <remote  name="aosp-security-r69"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-11.0.0_r69" />
+           revision="refs/tags/android-security-11.0.0_r69" />
 
   <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp"
