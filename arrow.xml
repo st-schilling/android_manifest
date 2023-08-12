@@ -32,7 +32,7 @@
 
   <!-- framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="arrow-st-schilling" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="arrow-st-schilling" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="arrow-st-schilling-r70" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow-st-schilling" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
@@ -60,7 +60,7 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow-st-schilling" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow-st-schilling" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow-st-schilling-r70" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="arrow" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow-st-schilling" />
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="arrow" />
@@ -194,7 +194,7 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="arrow" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="arrow" />
   <project path="external/tremolo" name="android_external_tremolo" remote="arrow" />
-  <project path="external/aac" name="android_external_aac" remote="arrow-st-schilling" />
+  <project path="external/aac" name="android_external_aac" remote="arrow-st-schilling-r70" />
   <project path="external/expat" name="android_external_expat" remote="arrow-st-schilling" />
 
   <!-- prebuilt repos -->
