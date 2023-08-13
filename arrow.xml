@@ -194,7 +194,7 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="arrow" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="arrow" />
   <project path="external/tremolo" name="android_external_tremolo" remote="arrow" />
-  <project path="external/aac" name="android_external_aac" remote="arrow" />
+  <project path="external/aac" name="android_external_aac" remote="arrow-st-schilling" />
   <project path="external/expat" name="android_external_expat" remote="arrow-st-schilling" />
 
   <!-- prebuilt repos -->
