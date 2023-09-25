@@ -41,10 +41,10 @@
            review="https://android-review.googlesource.com/"
            revision="refs/tags/android-11.0.0_r48" />
 
-  <remote  name="aosp-security-r71"
+  <remote  name="aosp-security-r70"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-security-11.0.0_r71" />
+           revision="refs/tags/android-security-11.0.0_r70" />
 
   <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp"
