@@ -2,7 +2,7 @@
 <manifest>
 
   <project path="manifest" name="android_manifest" remote="arrow" />
-  <project path="build/make" name="android_build" remote="arrow-st-schilling" >
+  <project path="build/make" name="android_build" remote="arrow-st-schilling-r73" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -31,8 +31,8 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="arrow" />
 
   <!-- framework repos -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="arrow-st-schilling" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="arrow-st-schilling" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="arrow-st-schilling-r73" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="arrow-st-schilling-r73" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow-st-schilling" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
@@ -60,7 +60,7 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow-st-schilling" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow-st-schilling" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow-st-schilling-r73" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="arrow" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="arrow-st-schilling" />
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="arrow" />
