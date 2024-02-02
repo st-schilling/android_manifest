@@ -14,6 +14,11 @@
   <remote  name="arrow-st-schilling"
            fetch="https://github.com/st-schilling"
            review="https://review.arrowos.net/"
+           revision="refs/tags/11.0.0_r73" />
+
+  <remote  name="arrow-st-schilling-r74"
+           fetch="https://github.com/st-schilling"
+           review="https://review.arrowos.net/"
            revision="refs/tags/11.0.0_r74" />
 
   <remote  name="arrow"
