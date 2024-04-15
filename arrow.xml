@@ -205,7 +205,7 @@
 
   <!-- system repos -->
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
-  <project path="system/core" name="android_system_core" remote="arrow" />
+  <project path="system/core" name="android_system_core" remote="arrow-st-schilling" />
   <project path="system/libufdt" name="android_system_libufdt" remote="arrow" />
   <project path="system/bt" name="android_system_bt" remote="arrow-st-schilling" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
