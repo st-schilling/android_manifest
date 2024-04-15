@@ -2,7 +2,7 @@
 <manifest>
 
   <project path="manifest" name="android_manifest" remote="arrow" />
-  <project path="build/make" name="android_build" remote="arrow-st-schilling" >
+  <project path="build/make" name="android_build" remote="arrow-st-schilling-r76" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -31,8 +31,8 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="arrow" />
 
   <!-- framework repos -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="arrow-st-schilling" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="arrow-st-schilling" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="arrow-st-schilling-r76" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="arrow-st-schilling-r76" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow-st-schilling" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
@@ -205,7 +205,7 @@
 
   <!-- system repos -->
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
-  <project path="system/core" name="android_system_core" remote="arrow-st-schilling" />
+  <project path="system/core" name="android_system_core" remote="arrow-st-schilling-r76" />
   <project path="system/libufdt" name="android_system_libufdt" remote="arrow" />
   <project path="system/bt" name="android_system_bt" remote="arrow-st-schilling" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
