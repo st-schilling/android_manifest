@@ -57,7 +57,7 @@
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="arrow" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="arrow" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="arrow" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="arrow-st-schilling" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow-st-schilling" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow-st-schilling" />
@@ -205,7 +205,7 @@
 
   <!-- system repos -->
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
-  <project path="system/core" name="android_system_core" remote="arrow" />
+  <project path="system/core" name="android_system_core" remote="arrow-st-schilling" />
   <project path="system/libufdt" name="android_system_libufdt" remote="arrow" />
   <project path="system/bt" name="android_system_bt" remote="arrow-st-schilling" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="arrow" />
