@@ -24,7 +24,7 @@
            revision="refs/heads/arrow-12.1" />
 
   <remote  name="ArrowOS-Devices"
-           fetch="https://github.com/ArrowOS-Devices"
+           fetch="https://github.com/st-schilling"
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-12.1" />
 
