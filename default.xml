@@ -19,6 +19,11 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-13.0" />
 
+  <remote  name="arrow-st-schilling"
+      fetch="https://github.com/st-schilling"
+      review="https://review.arrowos.net/"
+      revision="refs/heads/arrow-13.0" />
+
   <remote  name="ArrowOS-Devices"
            fetch="https://github.com/ArrowOS-Devices"
            review="https://review.arrowos.net/"
