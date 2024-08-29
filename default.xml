@@ -24,7 +24,7 @@
   <remote  name="arrow-st-schilling-bug-vlc"
            fetch="https://github.com/st-schilling"
            review="https://review.arrowos.net/"
-           revision="feature/bug-vlc-r70" />
+           revision="feature/bug-vlc-r70-base-r71" />
 
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
